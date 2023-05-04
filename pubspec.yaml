@@ -1,0 +1,55 @@
+name: original_base
+description: shared source code used on original mobile apps
+version: 1.2.4
+publish_to: 'none'
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # dart utils
+  timeago: 3.2.2
+  equatable: 2.0.3
+
+  # state management and dependency injection
+  flutter_bloc: 8.0.1
+  flutter_riverpod: 0.14.0+3
+
+  # network
+  dio: 4.0.6
+  connectivity_plus: 2.3.5
+  cached_network_image: 3.2.1
+
+  # firebase
+  firebase_core: 2.4.0
+  firebase_auth: 4.2.0
+  cloud_firestore: 4.2.0
+  firebase_messaging: 14.1.4
+  firebase_crashlytics: 3.0.7
+
+  # local storage
+  hive: 2.2.1
+  hive_flutter: 1.1.0
+
+  # ui
+  flutter_svg: 1.1.6
+  carousel_slider: 4.1.1
+
+  # native APIs plugins
+  share_plus: 4.0.10
+  fluttertoast: 8.0.9
+  url_launcher: 6.0.1
+  path_provider: 2.0.9
+  flutter_sound: 9.2.13
+  image_picker: 0.8.4+11
+  package_info_plus: 1.4.2
+  permission_handler: 9.2.0
+  flutter_local_notifications: 9.6.1
+
+dev_dependencies:
+  hive_generator: 1.1.3
+  build_runner: 2.1.11
